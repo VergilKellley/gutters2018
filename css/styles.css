@@ -2,7 +2,9 @@
 :root{
 	--primary: #ddd;
 	--dark: #333;
-	--light:#fff;
+	--light: #eaedf2;  /*#fff;*/
+	--red:#BF0A30;
+	--blue:#002868;
 	--shadow:0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
@@ -13,13 +15,13 @@ html{
 }
 
 body{
-	background: #ccc;
+	background: #c4daff;
 	margin: 30px 50px;
 	line-height: 1.4;
 }
 
 .btn{
-	background: var(--dark);
+	background: var(--blue);
 	color: var(--light);
 	padding: 0.6rem 1.3rem;
 	text-decoration: none;
@@ -42,16 +44,16 @@ img {
 	grid-gap: 20px;
 	padding:0;
 	list-style: none;
-	grid-template-columns: repeat(4, 1fr); /*1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(5, 1fr); /*1fr 1fr 1fr 1fr;*/
 }
 
 .main-nav a {
-	background: var(--primary);
+	background: var(--blue);
 	display: block;
 	text-decoration: none;
 	padding: 0.8rem;
 	text-align: center;
-	color: var(--dark);
+	color: var(--light);
 	text-transform: uppercase;
 	font-size: 1.1rem;
 	box-shadow: var(--shadow);
@@ -84,7 +86,6 @@ img {
 	align-items: start;
 	justify-content: center;
 	box-shadow: var(--shadow);
-	
 }
 
 .showcase h1{
@@ -113,6 +114,7 @@ img {
 
 .top-box .price{
 	font-size: 2.5rem;
+	text-align: center;
 }
 
 .top-box-a{
@@ -162,7 +164,7 @@ img {
 /* footer */
 footer{
 	margin-top: 2rem;
-	background:var(--dark);
+	background:var(--blue);
 	color: var(--light);
 	text-align: center;
 	padding: 1rem;
