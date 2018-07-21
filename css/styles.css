@@ -135,7 +135,7 @@ img {
 .boxes{
 	display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .box{
@@ -199,6 +199,10 @@ footer{
 		display: block;
 		text-align: center;
 		margin: auto;
+	}
+
+	.boxes{
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
 }
 
