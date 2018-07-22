@@ -76,7 +76,7 @@ img {
 /* showcase */
 .showcase{
 	grid-area: showcase;
-	min-height: 400px;
+	min-height: 330px;
 	background: url(../img/showcase.jpg);
 	background-size: cover;
 	background-position: center;
@@ -109,26 +109,46 @@ img {
 	align-items: center;
 	justify-content: center;
 	box-shadow: var(--shadow);
-	padding: 1.5rem;
+	padding: .5rem;
+
 }
 
 .top-box .price{
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	text-align: center;
 	color: var(--red);
 }
 
 .top-box h4{
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1rem;
+	margin-top: 0;
 }
 
 .top-box-a{
 	grid-area: top-box-a;
+	height: 92%;
 }
 
 .top-box-b{
 	grid-area: top-box-b;
+	height: 92%;
+}
+
+.top-box-a h4{
+	margin: 0;
+}
+
+.top-box-a p{
+	margin:0;
+}
+
+.top-box-b h4{
+	margin: 0;
+}
+
+.top-box-b p{
+	margin:0;
 }
 
 /* boxes */
@@ -177,7 +197,7 @@ footer{
 }
 
 /* media queries */
-@media (max-width: 800px){
+@media (max-width: 700px){
 	.top-container{
 		grid-template-areas: 
 		'showcase showcase'
@@ -202,11 +222,12 @@ footer{
 	}
 
 	.boxes{
-		grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}
+
 }
 
-@media(max-width: 500px){
+@media(max-width: 700px){
 	.top-container{
 		grid-template-areas: 
 		'showcase'
