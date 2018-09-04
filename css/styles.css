@@ -29,6 +29,10 @@ body{
 	text-align: center;
 }
 
+.btn:hover {
+	background-color: var(--dark);
+}
+
 img {
 	max-width: 100%;
 }
@@ -194,6 +198,15 @@ footer{
 	color: var(--light);
 	text-align: center;
 	padding: 1rem;
+}
+
+footer p a {
+	text-decoration: none;
+	color:var(--light) ;
+}
+
+footer p a:hover {
+	color: var(--dark);
 }
 
 /* media queries */
